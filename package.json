@@ -1,0 +1,23 @@
+{
+  "name": "web-homes-bellpi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^4.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DILEPE/web-homes-bellpi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DILEPE/web-homes-bellpi/issues"
+  },
+  "homepage": "https://github.com/DILEPE/web-homes-bellpi#readme"
+}
