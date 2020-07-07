@@ -6,13 +6,18 @@
   "dependencies": {
     "cypress": "^4.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "npm-run-all": "^4.1.5",
+    "serve": "^11.3.2",
+    "start-server-and-test": "^1.11.0"
+  },
   "scripts": {
-     "cy:open": "cypress open",
-      "cy:run": "cypress run",
-      "cy:run:record": "cypress run --record",
-      "test": "run-p --race start cy:run",
-      "test:ci": "run-p --race start cy:run:record"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:record": "cypress run --record",
+    "test": "run-p --race start cy:run",
+    "test:ci": "run-p --race start cy:run:record"
   },
   "repository": {
     "type": "git",
