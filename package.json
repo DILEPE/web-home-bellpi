@@ -16,8 +16,7 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "cy:run:record": "cypress run --record",
-    "test": "run-p --race start cy:run",
-    "test:ci": "run-p --race start cy:run:record"
+    "test:cypress": "start-server-and-test start http://localhost:8080 cypress"
   },
   "repository": {
     "type": "git",
