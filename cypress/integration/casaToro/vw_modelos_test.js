@@ -24,6 +24,7 @@ describe("paginas de modelos", () => {
     const listingCount = Cypress.$(listing).length;
     expect(listing).to.have.length(listingCount);
     	var aleatorio=randomIntFromInterval(1,listingCount) 
+    	aleatorio=aleatorio-1;
  cy.get('#select_10 > option').eq(aleatorio).invoke('val').then((val)=>{
 cy.get('#select_10').select(val)
  });

@@ -17,8 +17,7 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "cy:run:record": "cypress run --record",
-    "test:cypress": "start-server-and-test start http://localhost:8080 cypress",
-    "cy:vw-test":"npx cypress run --record --key d716a36b-2d46-4b20-8759-789485c02d55 --spec cypress/integration/casaToro/vw_modelos_test.js"
+    "test:cypress": "start-server-and-test start http://localhost:8080 cypress"
   },
   "repository": {
     "type": "git",
