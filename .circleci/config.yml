@@ -40,7 +40,7 @@ jobs:
       - run: ls -la cypress/integration
       - run:
           name: Running cypress tests
-          command: $(npm bin)/cypress run
+          command: $(npm bin)/cypress run --record --key d716a36b-2d46-4b20-8759-789485c02d55 --spec cypress/integration/casaToro/vw_modelos_test.js
       - store_artifacts:
           path: cypress/videos
       - store_artifacts:
