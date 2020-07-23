@@ -17,7 +17,14 @@
 import './commands'
 
 
+  import faker from 'faker'
+//require('faker/locale/es')
 
-
+faker.locale="es"
+	cy.name=faker.name.firstName()
+	cy.lastName=faker.name.lastName()
+	cy.phone=faker.random.number({min:3001000000, max:3509999999});
+	cy.email=faker.internet.email();
+    
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
