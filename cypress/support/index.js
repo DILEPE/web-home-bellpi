@@ -23,8 +23,14 @@ import './commands'
 faker.locale="es"
 	cy.name=faker.name.firstName()
 	cy.lastName=faker.name.lastName()
-	cy.phone=faker.random.number({min:3001000000, max:3509999999});
+    cy.document=faker.random.number({min:500000,max:10999999999})
+    cy.phone=faker.random.number({min:3001000000, max:3509999999});
+    cy.date_drive=faker.date.future()
+    cy.date_drive= Cypress.moment( cy.date_drive).format('YYYY-MM-DD')
 	cy.email=faker.internet.email();
+	cy.hour=Cypress.moment().format('HH:MM')
+
+	
     
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

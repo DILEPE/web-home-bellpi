@@ -11,5 +11,6 @@ describe("cotizar un modelos", () => {
      cy.get('#para_checkbox_9 > input').check({force:true})
      cy.get('#submit_button_1').click({force:true})
      cy.get('#successDiv_1').contains('Tu información ha sido enviada exitosamente')
+     
  })
 })

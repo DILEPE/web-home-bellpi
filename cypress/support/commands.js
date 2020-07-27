@@ -31,12 +31,14 @@
           expect(listing).to.have.length(listingCount);
       	  var aleatorio= 0   
       	  do{
+
       	  	    aleatorio= randomIntFromInterval(1,listingCount) 
     	         aleatorio=aleatorio-1;
       	   } while (aleatorio== 0 )    
 
       	   cy.get(id_select+' > option').eq(aleatorio).invoke('val').then((val)=>{
-           cy.get(id_select).select(val)
+      	   cy.get(id_select).select(val,{force:true})	 
+           
        });
      });
 

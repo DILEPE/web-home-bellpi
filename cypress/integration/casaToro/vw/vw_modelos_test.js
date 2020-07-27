@@ -10,7 +10,7 @@ describe("paginas de modelos", () => {
       cy.get('#phone_4').type(cy.phone,{force:true})
       cy.get('#email_5').type(cy.email,{force:true})
      
-      cy.select_dinamico('#select_10')
+      cy.select_dinamico.('#select_17')
       cy.get('#para_checkbox_8 > input').check({force:true})
       cy.get('#para_checkbox_9 > input').check({force:true})
       cy.get('#submit_button_1').click({force:true})
