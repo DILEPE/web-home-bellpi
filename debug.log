@@ -1,0 +1,5 @@
+[0730/102704.443:ERROR:process_reader_win.cc(127)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0730/102704.669:ERROR:exception_snapshot_win.cc(99)] thread ID 5504 not found in process
+[0730/102704.669:ERROR:process_memory_win.cc(73)] ReadMemory at 0x6558ffed70 of 16 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0730/102704.740:ERROR:exception_snapshot_win.cc(210)] EXCEPTION_POINTERS read failed
+[0730/102704.741:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
