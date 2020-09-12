@@ -3,3 +3,4 @@ describe("paginas de modelos", () => {
      cy.visit('https://mazda.casatoro.com/modelos');
    })
   
+ })
